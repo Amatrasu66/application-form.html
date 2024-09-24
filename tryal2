@@ -1,0 +1,41 @@
+<html>  
+      <title> admission form of bca </title>
+      <body style = "background-color:teal ; color:white" >
+           <h1> addmision form of bca 1C</h1>
+      <form>
+           First Name :
+           <input type = "text" name = "fname">
+           <br>
+           <br>
+           Last Name :
+           <input type = "text" name = "lname">
+           <br>
+           <br>
+           Contact Number :
+           <input type = "number" name = "contactnumber">
+           <br>
+           <br> 
+           E-Mail :
+           <input type = "text" name = "email">
+           <br>
+           <br>
+           Course :
+           <input type = "checkbox" id = "Course" name = "BCA1c">BCA1c
+           <input type = "checkbox" id = "Course" name = "BCA2c">BCA2c
+           <input type = "checkbox" id = "Course" name = "BCA3c">BCA3c
+           <br>
+           <br>
+           Date of Birth :
+           <input type = "date"  id = "Date of Birth" name = "dob">
+           <br>
+           <br>
+           Gender :
+           <input type = "radio" name = "gender" id = "Male">Male
+           <input type = "radio" name = "gender" id = "Female">Female
+           <br>
+           <br>
+           <button type = "submit" style = "background-color:red;color:white">submit
+           <button type = "reset" style = "background-color:red;color:white">reset
+      </form>
+      </body>
+</html>
